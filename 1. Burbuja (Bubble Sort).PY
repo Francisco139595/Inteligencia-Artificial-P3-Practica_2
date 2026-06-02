@@ -22,7 +22,8 @@ def bubble_sort(arr):
     return arr
 
 if __name__ == "__main__":
-    lista_prueba = [64, 34, 25, 12, 22, 11, 90]
+    lista_prueba = [64, 34, 25, 12, 22, 11, 90, 55, 42, 78, 3, 98, 18, 0, 54, 82, 73, 67, 44]
+
     print(f"Lista original: {lista_prueba}")
     bubble_sort(lista_prueba)
     print(f"Lista ordenada: {lista_prueba}")
